@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 21.8b0
+    hooks:
+    - id: black
+      language_version: python3
+      # https://github.com/psf/black/issues/2964 Issue with earlier black version
+      additional_dependencies: ['click==8.0.4']
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: isort (python)

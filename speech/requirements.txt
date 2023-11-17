@@ -1,0 +1,6 @@
+chex==0.1.5
+jax==0.3.16
+flax==0.6.0
+optax==0.1.4
+einops
+jaxlib-0.3.16-cp38-none-manylinux2014_x86_64.whl
